@@ -1,9 +1,10 @@
 ﻿using System;
+using DAL;
 
 namespace BLL
 {
     public interface UserService
     {
-        public bool add(string str);
+        bool add(string str);
     }
 }

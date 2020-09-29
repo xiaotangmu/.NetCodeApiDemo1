@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BLL;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Model;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,6 +15,14 @@ namespace SlowApp.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private readonly UserService _userService;
+        private readonly ILogger<UserController> _logger;
+
+        public UserController(UserService userService, ILogger<UserController> logger)
+        {
+            _userService = userService;
+            _logger = logger;
+        }
         // GET: api/<ValuesController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -31,6 +41,7 @@ namespace SlowApp.Controllers
         [HttpPost]
         public User Post([FromBody] User user)    // params 参数
         {
+            _userService.add(user.username);
             return user;
         }
 

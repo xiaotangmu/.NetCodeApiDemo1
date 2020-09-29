@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BLL;
+using BLL.Impl;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,6 +17,11 @@ namespace SlowApp
 {
     public class Startup
     {
+        /// <summary>
+        /// 服务集合
+        /// </summary>
+        private IServiceCollection _services;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -36,11 +43,15 @@ namespace SlowApp
                 .Build());
             });
 
+            // 依赖注入
             services.AddSingleton(Configuration);
+            services.AddScoped<UserService, UserServiceImpl>();
+            services.AddScoped(typeof(DAL.UserDao));
+
             services.AddHttpClient();
 
             services.AddControllers();
-
+            _services = services;
 
         }
 

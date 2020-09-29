@@ -7,12 +7,13 @@ namespace BLL.Impl
 {
     public class UserServiceImpl : UserService
     {
-        UserDao _userDao;
+        private readonly UserDao _userDao;
 
         public UserServiceImpl(UserDao userDao)
         {
             _userDao = userDao;
         }
+
         public bool add(string str)
         {
             if (_userDao.insert(str))
