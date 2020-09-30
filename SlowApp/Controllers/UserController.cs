@@ -39,10 +39,54 @@ namespace SlowApp.Controllers
 
         // POST api/<ValuesController>
         [HttpPost]
-        public User Post([FromBody] User user)    // params 参数
+        public IEnumerable<User> Post([FromBody] User user)    // params 参数
         {
-            _userService.add(user.username);
-            return user;
+
+            //_userService.add(user.username);
+
+            #region 测试Insql
+            // add
+            //_userService.add(user);
+
+            //user = _userService.getUser(user.id);
+            //_logger.LogInformation("getUser: id: " + user.id + ", username: " +
+            //     user.username + ", pwd: " + user.pwd);
+
+            //// getUsers
+            //_logger.LogInformation("getUsers: " + _userService.getUsers());
+
+            //// update
+            //user.username = "xiao";
+            //_userService.update(user);
+
+            //// delete
+            //_userService.delete(3);
+            #endregion
+
+            #region 测试 Dapper
+            // 添加
+            bool res1 = _userService.addUser(user);
+            _logger.LogInformation("addUser: " + res1);
+            // 查找
+            List<User> users = _userService.getUserByUserName(user.username);
+            _logger.LogInformation(users.ToString());
+
+            // 更新 C# 6 语法
+            User user2 = new User
+            {
+                id = 1,
+                username = "xxx",
+                pwd = "123456"
+            };
+            bool res2 = _userService.updateUser(user2);
+            _logger.LogInformation("updateUser: " + res2);
+
+            // 删除
+            bool res3 = _userService.deleteUser(2);
+            _logger.LogInformation("Delete: " + res3);
+            #endregion
+
+            return users;
         }
 
         // PUT api/<ValuesController>/5

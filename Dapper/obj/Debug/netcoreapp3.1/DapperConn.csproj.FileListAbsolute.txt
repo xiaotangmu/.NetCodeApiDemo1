@@ -1,0 +1,15 @@
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\DapperConn.deps.json
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\DapperConn.dll
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\Model.dll
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\Model.pdb
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\DapperConn.csprojAssemblyReference.cache
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\DapperConn.csproj.ResolveComReference.cache
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\DapperConn.AssemblyInfoInputs.cache
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\DapperConn.AssemblyInfo.cs
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\DapperConn.csproj.CopyComplete
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\DapperConn.pdb
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\DapperConn.csproj.CoreCompileInputs.cache
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\DapperConn.dll
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\DapperConn.pdb
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\Common.dll
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\Common.pdb

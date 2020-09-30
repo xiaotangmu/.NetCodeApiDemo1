@@ -8,7 +8,11 @@ F:\vsDeveloper\SlowApp\BLL\bin\Debug\netcoreapp3.1\Model.pdb
 F:\vsDeveloper\SlowApp\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
 F:\vsDeveloper\SlowApp\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
 F:\vsDeveloper\SlowApp\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
-F:\vsDeveloper\SlowApp\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
 F:\vsDeveloper\SlowApp\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 F:\vsDeveloper\SlowApp\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 F:\vsDeveloper\SlowApp\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+F:\vsDeveloper\SlowApp\BLL\bin\Debug\netcoreapp3.1\DapperConn.dll
+F:\vsDeveloper\SlowApp\BLL\bin\Debug\netcoreapp3.1\DapperConn.pdb
+F:\vsDeveloper\SlowApp\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+F:\vsDeveloper\SlowApp\BLL\bin\Debug\netcoreapp3.1\Common.dll
+F:\vsDeveloper\SlowApp\BLL\bin\Debug\netcoreapp3.1\Common.pdb

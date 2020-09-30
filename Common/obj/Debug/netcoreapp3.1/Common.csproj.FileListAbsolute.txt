@@ -1,0 +1,9 @@
+F:\vsDeveloper\SlowApp\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+F:\vsDeveloper\SlowApp\Common\bin\Debug\netcoreapp3.1\Common.dll
+F:\vsDeveloper\SlowApp\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+F:\vsDeveloper\SlowApp\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+F:\vsDeveloper\SlowApp\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+F:\vsDeveloper\SlowApp\Common\bin\Debug\netcoreapp3.1\Common.pdb
+F:\vsDeveloper\SlowApp\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+F:\vsDeveloper\SlowApp\Common\obj\Debug\netcoreapp3.1\Common.dll
+F:\vsDeveloper\SlowApp\Common\obj\Debug\netcoreapp3.1\Common.pdb

@@ -1,0 +1,39 @@
+﻿<insql type="DAL.UserDao,DAL" >
+
+  <!--定义UserPo类型数据库字段到对象属性映射-->
+  <map type="Model.User,Model">
+    <key name="id" to="id" />
+    <column name="User_Name" to="username" />
+    <column name="Pwd" to="pwd" />
+  </map>
+
+  <select id="GetUser">
+    select * from t_user where id = @id
+  </select>
+
+  <select id="GetUsers">
+    select * from t_user
+  </select>
+
+  <insert id="Add">
+    insert into t_user (User_Name, Pwd) values (@username,@pwd)
+  </insert>
+
+  <update id="Update">
+    update t_user
+    <set>
+      <if test="username != null">
+        User_Name = @username,
+      </if>
+    </set>
+    where id = @id
+  </update>
+
+  <delete id="Delete">
+    delete from t_user where id = @id
+  </delete>
+
+  <select id="GetRoleList">
+    select * from role_info order by role_order
+  </select>
+</insql>

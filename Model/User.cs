@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Model
 {
@@ -8,6 +9,8 @@ namespace Model
         public string username { get; set; }
         public string pwd { get; set; }
 
+        public List<Role> roles { get; set; }
 
+        public UserInfo userInfo { get; set; }
     }
 }

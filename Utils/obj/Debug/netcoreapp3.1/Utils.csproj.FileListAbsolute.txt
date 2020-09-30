@@ -1,0 +1,5 @@
+F:\vsDeveloper\SlowApp\Utils\bin\Debug\netcoreapp3.1\Utils.deps.json
+F:\vsDeveloper\SlowApp\Utils\bin\Debug\netcoreapp3.1\Utils.dll
+F:\vsDeveloper\SlowApp\Utils\obj\Debug\netcoreapp3.1\Utils.csprojAssemblyReference.cache
+F:\vsDeveloper\SlowApp\Utils\obj\Debug\netcoreapp3.1\Utils.AssemblyInfoInputs.cache
+F:\vsDeveloper\SlowApp\Utils\obj\Debug\netcoreapp3.1\Utils.AssemblyInfo.cs

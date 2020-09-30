@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using BLL;
 using BLL.Impl;
+using DAL;
+using Insql;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +34,14 @@ namespace SlowApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // 添加数据库orm insql 框架
+            services.AddInsql();
+            services.AddInsqlDbContext<UserDao>(options =>
+            {
+                //这里代表这个上下文使用这个SqlServer数据库
+                options.UseSqlServer("Server=localhost;uid=sa;pwd=123456;database=Test;Trusted_Connection=True;MultipleActiveResultSets=true;Integrated Security=false;");
+            });
+
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
@@ -47,6 +57,7 @@ namespace SlowApp
             services.AddSingleton(Configuration);
             services.AddScoped<UserService, UserServiceImpl>();
             services.AddScoped(typeof(DAL.UserDao));
+            services.AddScoped(typeof(DapperConn.Dao.UserDao));
 
             services.AddHttpClient();
 

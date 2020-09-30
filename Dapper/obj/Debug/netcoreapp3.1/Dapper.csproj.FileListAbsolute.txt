@@ -1,0 +1,7 @@
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\Dapper.dll.config
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\Dapper.deps.json
+F:\vsDeveloper\SlowApp\Dapper\bin\Debug\netcoreapp3.1\Dapper.dll
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\Dapper.csprojAssemblyReference.cache
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\Dapper.csproj.ResolveComReference.cache
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\Dapper.AssemblyInfoInputs.cache
+F:\vsDeveloper\SlowApp\Dapper\obj\Debug\netcoreapp3.1\Dapper.AssemblyInfo.cs

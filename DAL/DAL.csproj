@@ -1,10 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CommonDbContext.cs" />
+    <Compile Remove="CommonDbContextOptions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="mapper\UserDao.insql.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="mapper\UserDao.insql.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Insql" Version="2.2.2" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 

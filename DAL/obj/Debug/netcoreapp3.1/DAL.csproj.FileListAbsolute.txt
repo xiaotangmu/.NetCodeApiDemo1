@@ -6,7 +6,7 @@ F:\vsDeveloper\SlowApp\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
 F:\vsDeveloper\SlowApp\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
 F:\vsDeveloper\SlowApp\DAL\bin\Debug\netcoreapp3.1\Model.dll
 F:\vsDeveloper\SlowApp\DAL\bin\Debug\netcoreapp3.1\Model.pdb
-F:\vsDeveloper\SlowApp\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
 F:\vsDeveloper\SlowApp\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
 F:\vsDeveloper\SlowApp\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 F:\vsDeveloper\SlowApp\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+F:\vsDeveloper\SlowApp\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
